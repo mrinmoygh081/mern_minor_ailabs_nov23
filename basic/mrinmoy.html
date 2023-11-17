@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mrinmoy</title>
+    <link rel="stylesheet" href="assets/style.css" />
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      .para {
+        background-color: blue;
+      }
+      #para {
+        background-color: red;
+      }
+      p {
+        background-color: aqua;
+      }
+      .card {
+        width: 400px;
+        border: 1px solid #000;
+        padding: 10px;
+        margin: 20px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .position {
+        width: 300px;
+        height: 300px;
+        /* background-color: red;
+        position: fixed;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%); */
+
+        /* bottom: 0;
+        left: 0; */
+        /* position: sticky;
+        top: 0px; */
+      }
+      /* .sticky {
+        width: 300px;
+        height: 60px;
+        background-color: green;
+        position: sticky;
+        bottom: 0;
+      } */
+      .relative {
+        width: 800px;
+        height: 500px;
+        border: 2px solid #000;
+        position: relative;
+      }
+      .absolute {
+        height: 300px;
+        width: 300px;
+        background-color: red;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="relative">
+      <div class="absolute"></div>
+    </div>
+    <!-- <div class="card">
+      <img src="img1.jpg" width="200px" />
+      <h1>Lorem ipsum dolor sit</h1>
+      <p class="para graph" id="para" style="background-color: pink">
+        Lorem ipsum dolor sit amet consectetur.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique
+        deleniti harum magnam accusamus, pariatur aspernatur dolor quidem
+        voluptate numquam molestias incidunt nobis nihil. Animi impedit omnis,
+        perferendis beatae molestias architecto!
+      </p>
+    </div>
+    <div class="position"></div>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+      dolores inventore deserunt rerum dolorum porro aliquam numquam neque,
+      dolor nesciunt facere corrupti magni natus expedita amet? Ea quos sequi
+      eius aspernatur sunt tenetur sapiente! Consequatur ducimus voluptatibus
+      aliquam voluptatum! Possimus explicabo, dicta exercitationem corrupti,
+      dolor debitis placeat accusamus quo excepturi at error quaerat blanditiis
+      asperiores cumque atque provident sed, iste neque a dolores dolorem
+      aperiam qui illo aut? Harum facere deserunt perspiciatis necessitatibus
+      cumque nam? Nihil omnis consequuntur maiores! In veniam vel ex. Pariatur
+      esse beatae mollitia? Veritatis earum molestias, aspernatur tenetur,
+      architecto exercitationem dolorum ratione totam nostrum nihil quos
+      reprehenderit eveniet maxime nam dolore rem atque placeat. Nisi, nostrum
+      architecto? Laboriosam alias vel, tenetur reprehenderit similique
+      asperiores quos fugiat deserunt, aliquam tempore blanditiis quisquam non
+      magni nemo? Veniam atque deleniti exercitationem repellat dolor vel
+      voluptatem dignissimos. Molestias cupiditate suscipit similique cum
+      ratione blanditiis, illum fugiat! Laborum dolorum aperiam tempora
+      obcaecati doloribus asperiores dolorem accusamus iusto corrupti amet,
+      quibusdam, consequatur in quia quo provident sequi. Tempore beatae error
+      nobis ab animi! Quod iusto facere cupiditate libero soluta molestias
+      error! Asperiores officiis quidem magni nesciunt reiciendis distinctio
+      nemo autem similique, quas consectetur veniam? Aut similique dolorem
+      labore laboriosam quaerat a culpa.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+      dolores inventore deserunt rerum dolorum porro aliquam numquam neque,
+      dolor nesciunt facere corrupti magni natus expedita amet? Ea quos sequi
+      eius aspernatur sunt tenetur sapiente! Consequatur ducimus voluptatibus
+      aliquam voluptatum! Possimus explicabo, dicta exercitationem corrupti,
+      dolor debitis placeat accusamus quo excepturi at error quaerat blanditiis
+      asperiores cumque atque provident sed, iste neque a dolores dolorem
+      aperiam qui illo aut? Harum facere deserunt perspiciatis necessitatibus
+      cumque nam? Nihil omnis consequuntur maiores! In veniam vel ex. Pariatur
+      esse beatae mollitia? Veritatis earum molestias, aspernatur tenetur,
+      architecto exercitationem dolorum ratione totam nostrum nihil quos
+      reprehenderit eveniet maxime nam dolore rem atque placeat. Nisi, nostrum
+      architecto? Laboriosam alias vel, tenetur reprehenderit similique
+      asperiores quos fugiat deserunt, aliquam tempore blanditiis quisquam non
+      magni nemo? Veniam atque deleniti exercitationem repellat dolor vel
+      voluptatem dignissimos. Molestias cupiditate suscipit similique cum
+      ratione blanditiis, illum fugiat! Laborum dolorum aperiam tempora
+      obcaecati doloribus asperiores dolorem accusamus iusto corrupti amet,
+      quibusdam, consequatur in quia quo provident sequi. Tempore beatae error
+      nobis ab animi! Quod iusto facere cupiditate libero soluta molestias
+      error! Asperiores officiis quidem magni nesciunt reiciendis distinctio
+      nemo autem similique, quas consectetur veniam? Aut similique dolorem
+      labore laboriosam quaerat a culpa.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+      dolores inventore deserunt rerum dolorum porro aliquam numquam neque,
+      dolor nesciunt facere corrupti magni natus expedita amet? Ea quos sequi
+      eius aspernatur sunt tenetur sapiente! Consequatur ducimus voluptatibus
+      aliquam voluptatum! Possimus explicabo, dicta exercitationem corrupti,
+      dolor debitis placeat accusamus quo excepturi at error quaerat blanditiis
+      asperiores cumque atque provident sed, iste neque a dolores dolorem
+      aperiam qui illo aut? Harum facere deserunt perspiciatis necessitatibus
+      cumque nam? Nihil omnis consequuntur maiores! In veniam vel ex. Pariatur
+      esse beatae mollitia? Veritatis earum molestias, aspernatur tenetur,
+      architecto exercitationem dolorum ratione totam nostrum nihil quos
+      reprehenderit eveniet maxime nam dolore rem atque placeat. Nisi, nostrum
+      architecto? Laboriosam alias vel, tenetur reprehenderit similique
+      asperiores quos fugiat deserunt, aliquam tempore blanditiis quisquam non
+      magni nemo? Veniam atque deleniti exercitationem repellat dolor vel
+      voluptatem dignissimos. Molestias cupiditate suscipit similique cum
+      ratione blanditiis, illum fugiat! Laborum dolorum aperiam tempora
+      obcaecati doloribus asperiores dolorem accusamus iusto corrupti amet,
+      quibusdam, consequatur in quia quo provident sequi. Tempore beatae error
+      nobis ab animi! Quod iusto facere cupiditate libero soluta molestias
+      error! Asperiores officiis quidem magni nesciunt reiciendis distinctio
+      nemo autem similique, quas consectetur veniam? Aut similique dolorem
+      labore laboriosam quaerat a culpa.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+      dolores inventore deserunt rerum dolorum porro aliquam numquam neque,
+      dolor nesciunt facere corrupti magni natus expedita amet? Ea quos sequi
+      eius aspernatur sunt tenetur sapiente! Consequatur ducimus voluptatibus
+      aliquam voluptatum! Possimus explicabo, dicta exercitationem corrupti,
+      dolor debitis placeat accusamus quo excepturi at error quaerat blanditiis
+      asperiores cumque atque provident sed, iste neque a dolores dolorem
+      aperiam qui illo aut? Harum facere deserunt perspiciatis necessitatibus
+      cumque nam? Nihil omnis consequuntur maiores! In veniam vel ex. Pariatur
+      esse beatae mollitia? Veritatis earum molestias, aspernatur tenetur,
+      architecto exercitationem dolorum ratione totam nostrum nihil quos
+      reprehenderit eveniet maxime nam dolore rem atque placeat. Nisi, nostrum
+      architecto? Laboriosam alias vel, tenetur reprehenderit similique
+      asperiores quos fugiat deserunt, aliquam tempore blanditiis quisquam non
+      magni nemo? Veniam atque deleniti exercitationem repellat dolor vel
+      voluptatem dignissimos. Molestias cupiditate suscipit similique cum
+      ratione blanditiis, illum fugiat! Laborum dolorum aperiam tempora
+      obcaecati doloribus asperiores dolorem accusamus iusto corrupti amet,
+      quibusdam, consequatur in quia quo provident sequi. Tempore beatae error
+      nobis ab animi! Quod iusto facere cupiditate libero soluta molestias
+      error! Asperiores officiis quidem magni nesciunt reiciendis distinctio
+      nemo autem similique, quas consectetur veniam? Aut similique dolorem
+      labore laboriosam quaerat a culpa.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+      dolores inventore deserunt rerum dolorum porro aliquam numquam neque,
+      dolor nesciunt facere corrupti magni natus expedita amet? Ea quos sequi
+      eius aspernatur sunt tenetur sapiente! Consequatur ducimus voluptatibus
+      aliquam voluptatum! Possimus explicabo, dicta exercitationem corrupti,
+      dolor debitis placeat accusamus quo excepturi at error quaerat blanditiis
+      asperiores cumque atque provident sed, iste neque a dolores dolorem
+      aperiam qui illo aut? Harum facere deserunt perspiciatis necessitatibus
+      cumque nam? Nihil omnis consequuntur maiores! In veniam vel ex. Pariatur
+      esse beatae mollitia? Veritatis earum molestias, aspernatur tenetur,
+      architecto exercitationem dolorum ratione totam nostrum nihil quos
+      reprehenderit eveniet maxime nam dolore rem atque placeat. Nisi, nostrum
+      architecto? Laboriosam alias vel, tenetur reprehenderit similique
+      asperiores quos fugiat deserunt, aliquam tempore blanditiis quisquam non
+      magni nemo? Veniam atque deleniti exercitationem repellat dolor vel
+      voluptatem dignissimos. Molestias cupiditate suscipit similique cum
+      ratione blanditiis, illum fugiat! Laborum dolorum aperiam tempora
+      obcaecati doloribus asperiores dolorem accusamus iusto corrupti amet,
+      quibusdam, consequatur in quia quo provident sequi. Tempore beatae error
+      nobis ab animi! Quod iusto facere cupiditate libero soluta molestias
+      error! Asperiores officiis quidem magni nesciunt reiciendis distinctio
+      nemo autem similique, quas consectetur veniam? Aut similique dolorem
+      labore laboriosam quaerat a culpa.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+      dolores inventore deserunt rerum dolorum porro aliquam numquam neque,
+      dolor nesciunt facere corrupti magni natus expedita amet? Ea quos sequi
+      eius aspernatur sunt tenetur sapiente! Consequatur ducimus voluptatibus
+      aliquam voluptatum! Possimus explicabo, dicta exercitationem corrupti,
+      dolor debitis placeat accusamus quo excepturi at error quaerat blanditiis
+      asperiores cumque atque provident sed, iste neque a dolores dolorem
+      aperiam qui illo aut? Harum facere deserunt perspiciatis necessitatibus
+      cumque nam? Nihil omnis consequuntur maiores! In veniam vel ex. Pariatur
+      esse beatae mollitia? Veritatis earum molestias, aspernatur tenetur,
+      architecto exercitationem dolorum ratione totam nostrum nihil quos
+      reprehenderit eveniet maxime nam dolore rem atque placeat. Nisi, nostrum
+      architecto? Laboriosam alias vel, tenetur reprehenderit similique
+      asperiores quos fugiat deserunt, aliquam tempore blanditiis quisquam non
+      magni nemo? Veniam atque deleniti exercitationem repellat dolor vel
+      voluptatem dignissimos. Molestias cupiditate suscipit similique cum
+      ratione blanditiis, illum fugiat! Laborum dolorum aperiam tempora
+      obcaecati doloribus asperiores dolorem accusamus iusto corrupti amet,
+      quibusdam, consequatur in quia quo provident sequi. Tempore beatae error
+      nobis ab animi! Quod iusto facere cupiditate libero soluta molestias
+      error! Asperiores officiis quidem magni nesciunt reiciendis distinctio
+      nemo autem similique, quas consectetur veniam? Aut similique dolorem
+      labore laboriosam quaerat a culpa.
+    </p>
+    <div class="sticky"></div>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+      dolores inventore deserunt rerum dolorum porro aliquam numquam neque,
+      dolor nesciunt facere corrupti magni natus expedita amet? Ea quos sequi
+      eius aspernatur sunt tenetur sapiente! Consequatur ducimus voluptatibus
+      aliquam voluptatum! Possimus explicabo, dicta exercitationem corrupti,
+      dolor debitis placeat accusamus quo excepturi at error quaerat blanditiis
+      asperiores cumque atque provident sed, iste neque a dolores dolorem
+      aperiam qui illo aut? Harum facere deserunt perspiciatis necessitatibus
+      cumque nam? Nihil omnis consequuntur maiores! In veniam vel ex. Pariatur
+      esse beatae mollitia? Veritatis earum molestias, aspernatur tenetur,
+      architecto exercitationem dolorum ratione totam nostrum nihil quos
+      reprehenderit eveniet maxime nam dolore rem atque placeat. Nisi, nostrum
+      architecto? Laboriosam alias vel, tenetur reprehenderit similique
+      asperiores quos fugiat deserunt, aliquam tempore blanditiis quisquam non
+      magni nemo? Veniam atque deleniti exercitationem repellat dolor vel
+      voluptatem dignissimos. Molestias cupiditate suscipit similique cum
+      ratione blanditiis, illum fugiat! Laborum dolorum aperiam tempora
+      obcaecati doloribus asperiores dolorem accusamus iusto corrupti amet,
+      quibusdam, consequatur in quia quo provident sequi. Tempore beatae error
+      nobis ab animi! Quod iusto facere cupiditate libero soluta molestias
+      error! Asperiores officiis quidem magni nesciunt reiciendis distinctio
+      nemo autem similique, quas consectetur veniam? Aut similique dolorem
+      labore laboriosam quaerat a culpa.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+      dolores inventore deserunt rerum dolorum porro aliquam numquam neque,
+      dolor nesciunt facere corrupti magni natus expedita amet? Ea quos sequi
+      eius aspernatur sunt tenetur sapiente! Consequatur ducimus voluptatibus
+      aliquam voluptatum! Possimus explicabo, dicta exercitationem corrupti,
+      dolor debitis placeat accusamus quo excepturi at error quaerat blanditiis
+      asperiores cumque atque provident sed, iste neque a dolores dolorem
+      aperiam qui illo aut? Harum facere deserunt perspiciatis necessitatibus
+      cumque nam? Nihil omnis consequuntur maiores! In veniam vel ex. Pariatur
+      esse beatae mollitia? Veritatis earum molestias, aspernatur tenetur,
+      architecto exercitationem dolorum ratione totam nostrum nihil quos
+      reprehenderit eveniet maxime nam dolore rem atque placeat. Nisi, nostrum
+      architecto? Laboriosam alias vel, tenetur reprehenderit similique
+      asperiores quos fugiat deserunt, aliquam tempore blanditiis quisquam non
+      magni nemo? Veniam atque deleniti exercitationem repellat dolor vel
+      voluptatem dignissimos. Molestias cupiditate suscipit similique cum
+      ratione blanditiis, illum fugiat! Laborum dolorum aperiam tempora
+      obcaecati doloribus asperiores dolorem accusamus iusto corrupti amet,
+      quibusdam, consequatur in quia quo provident sequi. Tempore beatae error
+      nobis ab animi! Quod iusto facere cupiditate libero soluta molestias
+      error! Asperiores officiis quidem magni nesciunt reiciendis distinctio
+      nemo autem similique, quas consectetur veniam? Aut similique dolorem
+      labore laboriosam quaerat a culpa.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+      dolores inventore deserunt rerum dolorum porro aliquam numquam neque,
+      dolor nesciunt facere corrupti magni natus expedita amet? Ea quos sequi
+      eius aspernatur sunt tenetur sapiente! Consequatur ducimus voluptatibus
+      aliquam voluptatum! Possimus explicabo, dicta exercitationem corrupti,
+      dolor debitis placeat accusamus quo excepturi at error quaerat blanditiis
+      asperiores cumque atque provident sed, iste neque a dolores dolorem
+      aperiam qui illo aut? Harum facere deserunt perspiciatis necessitatibus
+      cumque nam? Nihil omnis consequuntur maiores! In veniam vel ex. Pariatur
+      esse beatae mollitia? Veritatis earum molestias, aspernatur tenetur,
+      architecto exercitationem dolorum ratione totam nostrum nihil quos
+      reprehenderit eveniet maxime nam dolore rem atque placeat. Nisi, nostrum
+      architecto? Laboriosam alias vel, tenetur reprehenderit similique
+      asperiores quos fugiat deserunt, aliquam tempore blanditiis quisquam non
+      magni nemo? Veniam atque deleniti exercitationem repellat dolor vel
+      voluptatem dignissimos. Molestias cupiditate suscipit similique cum
+      ratione blanditiis, illum fugiat! Laborum dolorum aperiam tempora
+      obcaecati doloribus asperiores dolorem accusamus iusto corrupti amet,
+      quibusdam, consequatur in quia quo provident sequi. Tempore beatae error
+      nobis ab animi! Quod iusto facere cupiditate libero soluta molestias
+      error! Asperiores officiis quidem magni nesciunt reiciendis distinctio
+      nemo autem similique, quas consectetur veniam? Aut similique dolorem
+      labore laboriosam quaerat a culpa.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+      dolores inventore deserunt rerum dolorum porro aliquam numquam neque,
+      dolor nesciunt facere corrupti magni natus expedita amet? Ea quos sequi
+      eius aspernatur sunt tenetur sapiente! Consequatur ducimus voluptatibus
+      aliquam voluptatum! Possimus explicabo, dicta exercitationem corrupti,
+      dolor debitis placeat accusamus quo excepturi at error quaerat blanditiis
+      asperiores cumque atque provident sed, iste neque a dolores dolorem
+      aperiam qui illo aut? Harum facere deserunt perspiciatis necessitatibus
+      cumque nam? Nihil omnis consequuntur maiores! In veniam vel ex. Pariatur
+      esse beatae mollitia? Veritatis earum molestias, aspernatur tenetur,
+      architecto exercitationem dolorum ratione totam nostrum nihil quos
+      reprehenderit eveniet maxime nam dolore rem atque placeat. Nisi, nostrum
+      architecto? Laboriosam alias vel, tenetur reprehenderit similique
+      asperiores quos fugiat deserunt, aliquam tempore blanditiis quisquam non
+      magni nemo? Veniam atque deleniti exercitationem repellat dolor vel
+      voluptatem dignissimos. Molestias cupiditate suscipit similique cum
+      ratione blanditiis, illum fugiat! Laborum dolorum aperiam tempora
+      obcaecati doloribus asperiores dolorem accusamus iusto corrupti amet,
+      quibusdam, consequatur in quia quo provident sequi. Tempore beatae error
+      nobis ab animi! Quod iusto facere cupiditate libero soluta molestias
+      error! Asperiores officiis quidem magni nesciunt reiciendis distinctio
+      nemo autem similique, quas consectetur veniam? Aut similique dolorem
+      labore laboriosam quaerat a culpa.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+      dolores inventore deserunt rerum dolorum porro aliquam numquam neque,
+      dolor nesciunt facere corrupti magni natus expedita amet? Ea quos sequi
+      eius aspernatur sunt tenetur sapiente! Consequatur ducimus voluptatibus
+      aliquam voluptatum! Possimus explicabo, dicta exercitationem corrupti,
+      dolor debitis placeat accusamus quo excepturi at error quaerat blanditiis
+      asperiores cumque atque provident sed, iste neque a dolores dolorem
+      aperiam qui illo aut? Harum facere deserunt perspiciatis necessitatibus
+      cumque nam? Nihil omnis consequuntur maiores! In veniam vel ex. Pariatur
+      esse beatae mollitia? Veritatis earum molestias, aspernatur tenetur,
+      architecto exercitationem dolorum ratione totam nostrum nihil quos
+      reprehenderit eveniet maxime nam dolore rem atque placeat. Nisi, nostrum
+      architecto? Laboriosam alias vel, tenetur reprehenderit similique
+      asperiores quos fugiat deserunt, aliquam tempore blanditiis quisquam non
+      magni nemo? Veniam atque deleniti exercitationem repellat dolor vel
+      voluptatem dignissimos. Molestias cupiditate suscipit similique cum
+      ratione blanditiis, illum fugiat! Laborum dolorum aperiam tempora
+      obcaecati doloribus asperiores dolorem accusamus iusto corrupti amet,
+      quibusdam, consequatur in quia quo provident sequi. Tempore beatae error
+      nobis ab animi! Quod iusto facere cupiditate libero soluta molestias
+      error! Asperiores officiis quidem magni nesciunt reiciendis distinctio
+      nemo autem similique, quas consectetur veniam? Aut similique dolorem
+      labore laboriosam quaerat a culpa.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+      dolores inventore deserunt rerum dolorum porro aliquam numquam neque,
+      dolor nesciunt facere corrupti magni natus expedita amet? Ea quos sequi
+      eius aspernatur sunt tenetur sapiente! Consequatur ducimus voluptatibus
+      aliquam voluptatum! Possimus explicabo, dicta exercitationem corrupti,
+      dolor debitis placeat accusamus quo excepturi at error quaerat blanditiis
+      asperiores cumque atque provident sed, iste neque a dolores dolorem
+      aperiam qui illo aut? Harum facere deserunt perspiciatis necessitatibus
+      cumque nam? Nihil omnis consequuntur maiores! In veniam vel ex. Pariatur
+      esse beatae mollitia? Veritatis earum molestias, aspernatur tenetur,
+      architecto exercitationem dolorum ratione totam nostrum nihil quos
+      reprehenderit eveniet maxime nam dolore rem atque placeat. Nisi, nostrum
+      architecto? Laboriosam alias vel, tenetur reprehenderit similique
+      asperiores quos fugiat deserunt, aliquam tempore blanditiis quisquam non
+      magni nemo? Veniam atque deleniti exercitationem repellat dolor vel
+      voluptatem dignissimos. Molestias cupiditate suscipit similique cum
+      ratione blanditiis, illum fugiat! Laborum dolorum aperiam tempora
+      obcaecati doloribus asperiores dolorem accusamus iusto corrupti amet,
+      quibusdam, consequatur in quia quo provident sequi. Tempore beatae error
+      nobis ab animi! Quod iusto facere cupiditate libero soluta molestias
+      error! Asperiores officiis quidem magni nesciunt reiciendis distinctio
+      nemo autem similique, quas consectetur veniam? Aut similique dolorem
+      labore laboriosam quaerat a culpa.
+    </p> -->
+  </body>
+</html>
