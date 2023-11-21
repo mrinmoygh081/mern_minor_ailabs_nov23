@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #232734;
+}
+
+.links {
+  font-weight: 500;
+  list-style: none;
+}
+
+.links a {
+  padding: 5px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  align-items: center;
+  padding: 30px 20px;
+  background-color: #000;
+  height: 100px;
+}
+
+.logo {
+  display: block;
+  height: 80px;
+  cursor: pointer;
+}
+
+nav.links a {
+  text-decoration: none;
+  color: #ff1e1a;
+}
+
+.image_container {
+  display: flex;
+  justify-content: center;
+}
+
+.image {
+  width: 100%;
+  height: 50vh;
+  object-fit: cover;
+}
+
+.services {
+  max-width: 700px;
+  margin: 20px auto;
+}
+.heading {
+  padding: 0;
+  text-align: center;
+  font-size: 50px;
+  font-weight: bolder;
+  color: #ff1e1a;
+}
+.para {
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: center;
+  font-size: 10px;
+  color: #fff;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  width: 80%;
+  margin: auto;
+}
+.row {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.service_card .col {
+  width: 25%;
+  padding: 10px;
+}
+.card {
+  border: 2px solid #fff;
+  padding: 20px;
+  text-align: center;
+}
+.bell {
+  height: 80px;
+  margin: 2px;
+}
+.card h4 {
+  padding-bottom: 10px;
+  text-align: center;
+  color: #ff1e1a;
+}
+.card p {
+  color: #fff;
+  padding: 5px;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px auto;
+}
+.image2 {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+.container2 {
+  /* margin: 0px auto;     */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 10px;
+  row-gap: 10px;
+}
+.form-container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  font-size: 25px;
+}
+label {
+  display: block;
+  color: #fff;
+  margin-top: 1px;
+  padding-top: 10px;
+}
+
+input {
+  padding: 5px;
+}
+textarea {
+  resize: vertical;
+  width: 100%;
+  min-height: 250px;
+  max-height: 300px;
+}
+#contact-us h1 {
+  margin: 20px auto;
+}
+form {
+  width: 80%;
+  border: 1px solid #fff;
+  padding: 15px 20px;
+  border-radius: 8px;
+}
+form input {
+  width: 100%;
+}
+.btns {
+  display: flex;
+}
+.btns input[type="submit"] {
+  margin-right: 5px;
+}
+.btns input[type="reset"] {
+  margin-left: 5px;
+}
+
+/* tablet device  */
+@media (max-width: 799px) {
+  .service_card .col {
+    width: 50%;
+  }
+}
+/* mobile device  */
+@media (max-width: 576px) {
+  .service_card .col {
+    width: 100%;
+  }
+}
