@@ -1,0 +1,429 @@
+/* value declear */
+body {
+    background-color: rgb(16,16,20);
+    color: #777;
+    font: normal 15px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+* {
+    margin: 0;
+}
+p {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+h1 {
+    font-family: 'Crete Round', serif;
+    font-weight: bold;
+    color: #969689;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+h2 {
+    font-weight: 300;
+    color: #969689;
+    font-size: 55px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+}
+h3 {
+    font-size: 30px;
+    color: #969689;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+}
+h4 {
+    font-size: 24px;
+    color: #969689;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+h5 {
+    font-size: 15px;
+    color: #969689;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+a {
+    text-decoration: none;
+    color: #969689;
+}
+a:hover {
+    color: #02b8dd;
+}
+strong {
+    font-weight: bold;
+}
+small {
+    font-size: 13px;
+    color: #969689;
+    font-style: italic;
+}
+.clear {
+    clear: both;
+}
+
+.welcome1 {
+    width: 100%;
+    align-items: center;
+
+}
+.wrapper {
+    margin: 0 auto;
+    padding: 0 10px;
+    width: 940px;
+}
+.title-color {
+    color: #fff;
+}
+/* value declear */
+
+
+
+/* navbar and header section*/
+header {
+    height: 80px;
+}
+header h1 {
+    float: left;
+    margin-top: 16.8px;
+}
+header h1 .color {
+    color: #969689;
+}
+header nav {
+    float: right;
+}
+header nav ul li {
+    align-items: left;
+    display: inline-block;
+    margin-top: 33px;
+}
+header nav ul li a {
+    color: #969689;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    margin-right: 20px;
+}
+
+
+#slider-img h2 {
+    margin: 180px 0 40px 0;
+}
+
+/* navbar and header section*/
+
+/* Animation of the image*/
+
+body {
+    margin: 0;
+    padding: 0;
+}
+.slider1 {
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 15px auto;
+    padding: 2px 0;
+    position: relative;
+
+
+}
+.slider1:before{
+    position: absolute;
+    top: 0;
+    width: 200px;
+    height: 100%;
+    content: "";
+    z-index: 2;
+}
+.slider1:after{
+    position: absolute;
+    top: 0;
+    width: 200px;
+    height: 100%;
+    content: "";
+    z-index: 2;
+
+}
+
+
+.slider1:before{
+    left: 0;
+    background: linear-gradient(to left,transparent, #0a0a0d);
+}
+.slider1:after{
+    right: 0;
+    background: linear-gradient(to right,transparent, #0a0a0d);
+}
+.img-slide1{
+    display: inline-block;
+    animation: 35s slide infinite linear;
+}
+.img-slide1 img{
+    height: 580px;
+}
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+
+
+/* Animation of the image*/
+
+
+/*Button and illustrator header */
+.Artist {
+    text-align: center;
+}
+.Artist-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.button-1 {
+    display: block;
+    text-align: center;
+    background: #444;
+    border-radius: 3px;
+    color: #fff;
+    width: 180px;
+    height: 50px;
+    font-size: 20px;
+    line-height: 50px;
+    margin: 0 auto;
+}
+.button-1:hover {
+    background-color: #020d0f;
+    color: #fff;
+}
+
+/*Button and illustrator header */
+
+
+/*illustator and treanding now*/
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.col {
+    flex: 1;
+    margin: 0 5px;
+}
+.container {
+    max-width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.card {
+    border: 1px solid black;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.card img {
+    width: 100%;
+}
+
+.view-more {
+    padding-top: 50px;
+
+}
+.card-text h2 a:hover{
+        color: #303039;
+        padding-left: 10px;
+        transition: all 0.3s ease;
+
+}
+
+
+/*illustator and treanding now*/
+
+.container2 {
+    max-width: 80%;
+    margin: auto;
+    text-align: end;
+
+
+}
+.row2 {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.col2 {
+    flex: 1;
+    margin: 0 5px;
+}
+
+.card2 {
+    display: flex;
+    border: 1px solid black;
+    padding: 10px;
+}
+.card2-content {
+    display: flex;
+    flex: 1;
+}
+
+.text2-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.text2-content h2 a:hover{
+    color: #303039;
+    padding-left: 10px;
+    transition: all 0.3s ease;
+
+}
+.text2-content a:hover{
+    color: #303039;
+    padding-left: 10px;
+    transition: all 0.3s ease;
+}
+
+.card2-img {
+    flex-shrink: 0;
+    margin-right: 20px;
+}
+
+.card2-img img {
+    max-width: 376px;
+    height: auto
+}
+
+/*Footer section*/
+
+.footer{
+ padding: 70px 0;
+ background-color: #0a0a0d;
+ margin-top: 150px;
+}
+.container-footer {
+    max-width: 1170px;
+    margin: auto;
+
+}
+
+.col-footer{
+    width: 25%;
+    padding: 0 15px;
+
+
+}
+
+.row-footer {
+    display: flex;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-evenly;
+}
+.col-footer ul {
+    list-style: none;
+    padding-inline-start: 2px;
+}
+.col-footer ul li:not(:last-child){
+    margin-bottom: 16px;
+}
+.col-footer ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 200;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+.col-footer ul li a:hover {
+    color: #fff;
+    padding-left: 10px;
+
+}
+.col-footer .social-link a{
+    display: inline-block;
+    margin-right: 12px;
+    transition: all 0.3s ease;
+}
+.col-footer .social-link a:hover {
+    color: white;
+    background-color: #02b8dd;
+}
+.col-footer h4 {
+    font-size: 18px;
+    color: aliceblue;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 300;
+    position: relative;
+}
+.col-footer h4::before {
+    content: '';
+    position: absolute;
+    left: 0%;
+    bottom: -10px;
+    background-color: #02b8dd;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+
+/*Footer section*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Responsive*/
+
+/*Footer section*/
+@media(max-width: 767px){
+    .col-footer {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+@media(max-width: 574px){
+    .col-footer {
+        width: 100%;
+    }
+}
+
+/*Footer section*/

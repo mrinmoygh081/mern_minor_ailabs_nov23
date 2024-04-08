@@ -1,0 +1,41 @@
+/* h3 {
+  color: rebeccapurple;
+}
+
+h2 {
+  color: #fff;
+  background-color: brown;
+}
+.heading2 {
+  background-color: rebeccapurple;
+}
+#heading2 {
+  font-weight: 800;
+  font-size: 70px;
+}
+.pragya {
+  color: pink;
+} */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+p {
+  background-color: rgba(255, 0, 0, 0.5);
+  font-size: 50px;
+  border: 2px solid blue;
+  margin: 50px 20px;
+  /* margin: 50px 20px 10px 30px; */
+  padding: 50px;
+}
+/* #para {
+  background-color: brown !important;
+} */
+
+/* .para2 {
+  background-color: violet !important;
+}
+.para {
+  background-color: green !important;
+} */

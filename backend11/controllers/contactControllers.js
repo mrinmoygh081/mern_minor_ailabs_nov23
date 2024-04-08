@@ -30,6 +30,15 @@ exports.addContact = async (req, res) => {
 
 exports.editContact = async (req, res) => {
   const { id } = req.params;
+  const isPresent = await contactModel.findById(id);
+  console.log(isPresent);
+  if (isPresent) {
+    return res.status(200).json({
+      status: 0,
+      data: null,
+      message: "Same email address is already registered",
+    });
+  }
   const updateContact = await contactModel.findByIdAndUpdate(id, req.body);
   res.status(200).json({
     status: 1,

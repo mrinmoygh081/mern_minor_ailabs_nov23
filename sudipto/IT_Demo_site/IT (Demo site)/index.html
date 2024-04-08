@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="slider()" id="home">
+  <div class="banner hidden">
+    <div class="slider">
+      <img src="images/1.jpg" id="slideImage" alt="">
+    </div>
+    <div class="overlay">
+
+      <!-- insert navbar code over here -->
+      <header class="header">
+        <a class="logo" href="#">Logo</a>
+
+        <input type="checkbox" id="check">
+        <label for="check" class="icons">
+          <i class='bx bx-menu' id="menu-icon"></i>
+          <i class='bx bx-x' id="close-icon"></i>
+        </label>
+
+        <nav class="navbar">
+          <a href="#home" class="active" style="--i:0;">Home</a>
+          <a href="#products" style="--i:1;">Products</a>
+          <a href="#contact" style="--i:2;">Contact</a>
+        </nav>
+      </header>
+
+      <!-- End of navbar code  -->
+
+      <!-- Content of Hero section -->
+      <div class="hero-content">
+        <h1>Jujutsu Kaisen</h1>
+        <h3>Fairy tail Lorem ipsum dolor sit amet.</h3>
+
+        <div>
+          <button type="button">Hate</button>
+          <button type="button" class="btn-2">Genshin</button>
+        </div>
+      </div>
+      <!-- End of hero section content -->
+    </div>
+  </div>
+
+  <section class="om" id="products">
+    <div class="about hidden">
+      PRODUCTS
+    </div>
+    <div class="para hidden">
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae porro nobis debitis nostrum sint suscipit
+        facilis, necessitatibus reprehenderit cum illo inventore aliquid accusamus unde quo minus reiciendis. Ea
+        praesentium, voluptatibus unde modi quod cumque itaque delectus repellat? Accusantium eius ipsum error dolor,
+        laborum maxime libero dolore harum porro fuga, illum commodi, quasi id voluptate iure perferendis tenetur
+        molestiae animi temporibus! Vitae quas suscipit saepe perspiciatis corrupti sequi nihil eveniet! Animi quae
+        placeat et non soluta ratione. Error culpa nam eligendi?</p>
+    </div>
+  </section>
+
+  <!-- Your cards go here -->
+  <div class="flex-container hidden">
+    <div class="card" style="width: 18rem;">
+      <img src="images/card_11.jpeg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+          content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+      <img src="images/card_2.jpeg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+          content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+      <img src="images/card_3.jpeg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+          content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+      <img src="images/card_4.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+          content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+      <img src="images/card_5.jpeg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+          content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+      <img src="images/card_6.jpeg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+          content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+      <img src="images/card_7.jpeg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+          content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+      <img src="images/card_8.jpeg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+          content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+
+  </div>
+  <div class="view-more-container hidden">
+    <a href="#" class="button">View More</a>
+  </div>
+
+
+  <!-- start of category list -->
+
+  <section class="category-list hidden">
+    <h3>Category list</h3>
+    <div class="flex-container">
+      <img src="icons/shirt.svg" class="category-icon flex-item" alt=""></li>
+      <img src="icons/pants.svg" class="category-icon flex-item" alt=""></li>
+      <img src="icons/shoes.svg" class="category-icon flex-item" alt=""></li>
+      <img src="icons/socks.svg" class="category-icon flex-item" alt=""></li>
+    </div>
+    <div class="flex-container" style="margin-top: 10px;">
+      <img src="icons/wrist watch.svg" class="category-icon flex-item" alt=""></li>
+      <img src="icons/smartphone.svg" class="category-icon flex-item" alt=""></li>
+      <img src="icons/pc.svg" class="category-icon flex-item" alt=""></li>
+
+    </div>
+  </section>
+  <!-- end of category list -->
+  <!-- Feature product start -->
+  <section class="feature-product-list hidden">
+    <h3>Feature Product</h3>
+    <div class="feature-product-flex">
+      <!-- img portion -->
+      <div class="feature-card">
+        <img src="images/card_9.jpeg" alt="" class="feature-img">
+        <!-- img end -->
+        <div class="feature-text">
+          <h4>Featured text</h4>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et eius, rem sapiente illum sunt sint tempore?
+          </p>
+          <button>View more</button>
+        </div>
+      </div>
+      <div class="feature-card">
+        <img src="images/card_10.jpeg" alt="" class="feature-img">
+        <!-- img end -->
+        <div class="feature-text">
+          <h4>Featured text</h4>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et eius, rem sapiente illum sunt sint tempore?
+          </p>
+          <button>View more</button>
+        </div>
+      </div>
+    </div>
+    <div class="feature-product-flex">
+      <!-- img portion -->
+      <div class="feature-card">
+        <img src="images/card_12.jpeg" alt="" class="feature-img">
+        <!-- img end -->
+        <div class="feature-text">
+          <h4>Featured text</h4>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et eius, rem sapiente illum sunt sint tempore?
+          </p>
+          <button>View more</button>
+        </div>
+      </div>
+      <div class="feature-card">
+        <img src="images/card_1.jpeg" alt="" class="feature-img">
+        <!-- img end -->
+        <div class="feature-text">
+          <h4>Featured text</h4>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et eius, rem sapiente illum sunt sint tempore?
+          </p>
+          <button>View more</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Feature product end -->
+
+  <section class="hidden" id="contact">
+    <footer>
+      <div class="waves">
+        <div class="wave" id="wave1"></div>
+        <div class="wave" id="wave2"></div>
+        <div class="wave" id="wave3"></div>
+        <div class="wave" id="wave4"></div>
+      </div>
+
+      <div class="con">
+        <div class="row">
+          <div class="footer-col">
+            <h4>Follow Us</h4>
+            <div class="social-links">
+              <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+              <li><a href="#"><ion-icon name="logo-youtube"></ion-icon></a></li>
+              <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
+            </div>
+          </div>
+          <div class="footer-col">
+            <h4>get help</h4>
+            <ul>
+              <li><a href="#"></a></li>
+              <li><a href="#">order status</a></li>
+              <li><a href="#">returns</a></li>
+              <li><a href="#">shipping</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>company</h4>
+            <ul>
+              <li><a href="#">about us</a></li>
+              <li><a href="#">help</a></li>
+              <li><a href="#">privacy policy</a></li>
+              <li><a href="#">terms and condition</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </section>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>

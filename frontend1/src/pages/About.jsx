@@ -24,16 +24,17 @@ const About = () => {
   return (
     <>
       <Header />
-      {data.map((item) => {
-        return (
-          <>
-            <div style={{ color: "#fff", padding: 30 }}>
-              <h1>{item.title}</h1>
-              <p>{item.body}</p>
-            </div>
-          </>
-        );
-      })}
+      {data &&
+        data.map((item) => {
+          return (
+            <>
+              <div style={{ color: "#fff", padding: 30 }}>
+                <h1>{item.title}</h1>
+                <p>{item.body}</p>
+              </div>
+            </>
+          );
+        })}
     </>
   );
 };
