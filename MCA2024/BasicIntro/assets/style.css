@@ -39,3 +39,39 @@ p {
 .para {
   background-color: green !important;
 } */
+
+/* My template website  */
+.container {
+  background-color: aqua;
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 10px;
+  max-height: 600px;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.col {
+  width: 25%;
+}
+.card {
+  margin: 10px;
+  height: 60px;
+  background-color: red;
+}
+/* for tablet device */
+@media (max-width: 799px) {
+  .col {
+    width: 33.33%;
+  }
+}
+
+/* for mobile device  */
+@media (max-width: 576px) {
+  .col {
+    width: 100%;
+  }
+}
