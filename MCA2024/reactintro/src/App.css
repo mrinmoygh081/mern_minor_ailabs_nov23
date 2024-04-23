@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 90%;
+  margin: auto;
+}
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.col {
+  width: 33.33%;
+}
+.card {
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin: 10px;
+}
+.header {
+  border-bottom: 1px solid #ccc;
+}
+.header ul {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 10px;
+  list-style: none;
+  width: 90%;
+  margin: auto;
+}
+.header li {
+  padding: 10px;
+}
