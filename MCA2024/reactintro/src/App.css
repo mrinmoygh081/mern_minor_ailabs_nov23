@@ -36,3 +36,162 @@
 .header li {
   padding: 10px;
 }
+
+/* pragrya css code  */
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100%;
+  height: auto;
+}
+.header {
+  width: 85vw;
+  height: 100px;
+  /* background-color: beige; */
+  margin: 1% auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Roboto Slab", serif;
+}
+.search {
+  width: 700px;
+  height: 45px;
+  opacity: 0.9;
+  border-radius: 4px;
+  padding-left: 4px;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 70%;
+  left: 25%;
+}
+.search input {
+  background: none;
+  border: none;
+}
+.search i {
+  padding: 12px;
+  opacity: 0.4;
+}
+::placeholder {
+  font-size: 1rem;
+}
+.nlinks {
+  text-decoration: none;
+  padding: 24px;
+  color: #000;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+.topicons i {
+  padding-left: 44px;
+}
+.main {
+  width: 100vw;
+  height: auto;
+  margin: 6% auto;
+  font-family: "Roboto Slab", serif;
+}
+.banner {
+  width: 100vw;
+  height: 50vh;
+  /* object-fit: cover;
+    object-position: 5% 65%; */
+}
+#divider {
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 4%;
+  margin-top: 4%;
+}
+.box {
+  width: 300px;
+  margin-bottom: 5%;
+}
+.box img {
+  width: 300px;
+  height: 300px;
+}
+.location {
+  margin-bottom: 4%;
+}
+.details {
+  margin-bottom: 4%;
+}
+.click {
+  margin-top: 4%;
+  width: 120px;
+  height: 36px;
+  background-color: rgb(113, 145, 113);
+  color: #ffff;
+  padding: 4px;
+  border: none;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+.shop {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+.footer {
+  width: 100%;
+  height: auto;
+  border: 1px solid #eeee;
+  padding-left: 2%;
+  padding-right: 2%;
+  font-family: "Roboto Slab", serif;
+}
+.f1 {
+  display: flex;
+  justify-content: space-around;
+}
+.line1,
+.line2,
+.line3 {
+  display: flex;
+  flex-direction: column;
+}
+.sub {
+  width: 400px;
+  height: 30px;
+  border: 1px solid black;
+  margin-top: 10%;
+  padding-left: 4%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sub input {
+  background: none;
+  border: none;
+}
+.subtn {
+  width: 100px;
+  height: 30px;
+  background-color: rgb(113, 145, 113);
+  color: #ffff;
+  padding: 4px;
+  border: none;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+.f2 {
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.f2 p {
+  margin-left: 20%;
+}
+.f2 a {
+  margin-left: 40%;
+}
